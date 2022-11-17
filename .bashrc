@@ -15,11 +15,12 @@ alias hiber='systemctl hibernate'
 
 # Function for taking care of syncing Obsidian vault
 obsync () {
-  local="~/vault"
+  local="/home/admin/vault"
   remote="vault:vault"
   # Sync from remote to local
   if [ "$1" = "-f" ]; then
     rclone sync -i $remote $local 
+  # Sync from local to remote
   elif [ "$1" = "-t" ]; then
     rclone sync -i $local $remote
   else 
