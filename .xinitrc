@@ -50,6 +50,5 @@ fi
 
 # added seciton
 xrdb /home/admin/.Xresources
-xrandr --dpi 109
 ~/.fehbg &
 exec i3
