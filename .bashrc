@@ -8,12 +8,11 @@
 # export BROWSER='/usr/bin/waterfox-g4'
 
 alias pn='pnpm'
-alias ls='ls --color=auto'
-alias nv='~/.config/kitty-padding.sh'
+alias ls='exa'
+alias v='~/.config/kitty-padding.sh'
 alias shut='shutdown now'
 alias susp='systemctl suspend'
 alias hiber='systemctl hibernate'
-alias spt='~/scripts/launchspt'
 alias sshalive='ssh -v -o ServerAliveInterval=60'
 
 # Function for taking care of syncing Obsidian vault
