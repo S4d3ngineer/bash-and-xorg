@@ -10,6 +10,7 @@
 alias pn='pnpm'
 alias ls='exa'
 alias v='~/.config/kitty-padding.sh'
+alias r='ranger'
 alias shut='shutdown now'
 alias susp='systemctl suspend'
 alias hiber='systemctl hibernate'
